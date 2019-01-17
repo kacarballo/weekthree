@@ -9,6 +9,10 @@ h1 {
   text-align: center;
 }
 
+p {
+  float: right;
+}
+
 .column p {
   margin: auto;
   border: 2px solid black;
@@ -17,16 +21,11 @@ h1 {
   width: 650px;
 }
 
-p {
-  float: right;
-}
-
 .sidebar {
-  width: 10%
+  width: 34%;
   float: left;
   background-color: #FFC0CB;
 }
-
 
 @media screen and (max-width: 968px) and (min-width: 100px) {
   body {

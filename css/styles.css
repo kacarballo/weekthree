@@ -1,20 +1,36 @@
-@media screen and (max-width: 768px) and (min-width: 600px) {
-  body {
-    background-color: black;
-    color: white;
-  }
+img {
+  width: 40%;
+  height: auto;
+  object-fit: cover;
 }
 
-@media screen and (max-width:480px) {
-  body {
-    background-color: teal;
-  }
+h1 {
+  color: #008080;
+  text-align: center;
 }
 
-@media screen and (min-width: 800px) {
-  .column {
-    width: 200px;
-    float: left;
-    padding: 20px;
+.column p {
+  margin: auto;
+  border: 2px solid black;
+  padding: 4px;
+  background-color: #B0C4DE;
+  width: 650px;
+}
+
+p {
+  float: right;
+}
+
+.sidebar {
+  width: 10%
+  float: left;
+  background-color: #FFC0CB;
+}
+
+
+@media screen and (max-width: 968px) and (min-width: 100px) {
+  body {
+    background-color: white;
+    color: black;
   }
 }
